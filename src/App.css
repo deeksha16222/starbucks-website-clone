@@ -15,7 +15,7 @@
 
 html, body {
     font-family: 'Open Sans', sans-serif;
-    line-height: 1.4;
+    line-height: 1;
     color: #000;
 }
 
@@ -113,6 +113,7 @@ section a {
   line-height: 1.2;
   text-align: center;
   text-decoration: none;
+  margin-top: 20px;
 }
 
 .btn-dark-outline {
@@ -151,7 +152,7 @@ section a {
 
 .text-xl {
     font-size: 50px;
-    letter-spacing: 6px;
+    letter-spacing: 3px;
     font-weight: 600;
     margin-bottom: 20px;
     text-align: center;
@@ -167,17 +168,27 @@ section a {
     display:grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-
+.box-text, .box-text-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
 .box-three{
     padding-top : 30px;
     Display:grid;
     grid-template-columns: 50% 50%;
 }
 
+
 .box-internal-three{
     text-align: center;
     justify-content: center;
     background-color: #006241; 
+}
+.box-image > img{
+    height: 100%
 }
 
 .text-xl-three {
@@ -233,3 +244,42 @@ section a {
     margin: 40px auto;
 
 }
+
+.box-image-three > img{
+    height: 100%
+}
+
+.bd-container{
+    max-width: 960px;
+    width: calc(100% - 2rem);
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+  }
+
+  .bd-grid{
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .footer__container{
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    row-gap: 2rem;
+  }
+  
+  .footer__title{
+    font-size: 20px;
+    color: black;
+    margin-bottom: var(--mb-2);
+  }
+  
+  .footer__link{
+    display: inline-block;
+    color: grey;
+    margin-bottom: var(--mb-1);
+  }
+  
+  .footer__link:hover{
+    color: black;
+  }
+
+  

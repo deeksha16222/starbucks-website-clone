@@ -148,8 +148,67 @@ export default function HomePage(){
     </div>
     
     {/* footer done */}
+    
+    <footer class="bd-container">
+            <div class="bd-grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">About Us</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Our Company</a></li>
+                        <li><a href="#" class="footer__link">Our Coffee</a></li>
+                        <li><a href="#" class="footer__link">Stories and News</a></li>
+                        <li><a href="#" class="footer__link">Customer Archive</a></li>
+                        <li><a href="#" class="footer__link">Investor Relations</a></li>
+                        <li><a href="#" class="footer__link">Customer Service</a></li>
 
-    <footer>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Careers</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Culture and Values</a></li>
+                        <li><a href="#" class="footer__link">Inclusion, Diversity, and Equity</a></li>
+                        <li><a href="#" class="footer__link">College Achievement Plan</a></li>
+                        <li><a href="#" class="footer__link">Alumni Community</a></li>
+                        <li><a href="#" class="footer__link">U.S. Careers</a></li>
+                        <li><a href="#" class="footer__link">International Careers</a></li>
+                    </ul>
+                </div>
+
+                
+                <div class="footer__content">
+                    <h3 class="footer__title">Social Impact</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">People</a></li>
+                        <li><a href="#" class="footer__link">Planet</a></li>
+                        <li><a href="#" class="footer__link">Environmental and Social Impact Reporting</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">For Business Partners</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Landlord Support Center</a></li>
+                        <li><a href="#" class="footer__link">Suppliers</a></li>
+                        <li><a href="#" class="footer__link">Corporate Gift Card Sales</a></li>
+                        <li><a href="#" class="footer__link">Office and Foodservice Coffee</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Order and Pickup</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Order on App</a></li>
+                        <li><a href="#" class="footer__link">Order on the Web</a></li>
+                        <li><a href="#" class="footer__link">Delivery</a></li>
+                        <li><a href="#" class="footer__link"> Order and Pickup Options</a></li>
+                        <li><a href="#" class="footer__link">Explore and Find Coffee for Home</a></li>
+                    </ul>
+                </div>
+
+                
+                
         <div className="footer-container">
             <div className="social">
                 <a href="https://spotify.com">
@@ -171,7 +230,9 @@ export default function HomePage(){
                     <img src={socialtwitter} alt="" />
                   </a>
             </div>
+
             <p>© 2021 Starbucks Coffee Company. All rights reserved.</p>
+        </div>
         </div>
       </footer>
 
