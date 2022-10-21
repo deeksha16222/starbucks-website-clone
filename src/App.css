@@ -125,9 +125,13 @@ section a {
   background-color: rgba(0, 0, 0, 0.08);
 }
 
+.box-internal .btn btn-light-outline{
+    padding-top: 20px;
+}
+
 .btn-light-outline {
-  border-color: #fff;
-  color: #fff;
+  border-color: black;
+  color: black;
 }
 
 .btn-dark {
@@ -138,3 +142,31 @@ section a {
 .btn-dark:hover {
   background-color: #333;
 }
+
+.box-internal{
+    text-align: center;
+    justify-content: center;
+    background-color: #d4e9e2;
+}
+
+.text-xl {
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.text-md {
+    font-size: 19px;
+    text-align: center;
+}
+  
+.box{
+    padding-top : 30px;
+    Display:grid;
+    grid-template-columns: 50% 50%;
+}
+
+  
+  
