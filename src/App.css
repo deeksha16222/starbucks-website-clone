@@ -164,9 +164,72 @@ section a {
   
 .box{
     padding-top : 30px;
+    display:grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.box-three{
+    padding-top : 30px;
     Display:grid;
     grid-template-columns: 50% 50%;
 }
 
-  
-  
+.box-internal-three{
+    text-align: center;
+    justify-content: center;
+    background-color: #006241; 
+}
+
+.text-xl-three {
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.text-md-three{
+    color: #ffffff;
+}
+
+.btn-three{
+   border-color: #ffffff;
+  color: #ffffff;
+  border-radius: 50px;
+}
+
+.bottom-text{
+    padding : 30px;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px 30px 30px 30px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.social img {
+    width: 35px;
+    height: 35px;
+}
+
+.social a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.divider {
+    width: 95%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 40px auto;
+
+}
