@@ -77,13 +77,13 @@ export default function HomePage(){
     {/*box B*/}
 
     <div className='box'>
-    <div className='box-internal'>
-    <div className="box-text">
-            <h2 className="text-xl-boxtwo"> A new way to earn sips and trips </h2>
-            <p className="text-md">
+    <div className='box-internal-two'>
+    <div className="box-text-two">
+            <h2 className="text-xl"> A new way to earn sips and trips </h2>
+            <p className="text-md-two">
             Now you can link your Starbucks Rewards® + Delta SkyMiles account to get:
             </p>
-            <ul className="listinternal">
+            <ul className="listinternal" style={{listStyleType:'circle'}}>
             <li>
                 150 Stars+500 miles when you link before 12/31
             </li> <br/>

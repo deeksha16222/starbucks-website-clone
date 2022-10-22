@@ -152,14 +152,22 @@ section a {
     padding: 40px 40px 40px 40px;
 }
 
+.box-internal-two{
+    background-color: #d4e9e2;
+    padding: 40px 10px 40px 40px
+}
+
 .text-xl {
-    font-size: 50px;
-    letter-spacing: 3px;
+    font-size: 30px;
+    letter-spacing: 0.6px;
     font-weight: 600;
     margin-bottom: 20px;
-    text-align: center;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.box-text-two{
+    padding-left: 10px;
 }
 
 .text-md {
@@ -167,6 +175,15 @@ section a {
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
+}
+
+.listinternal{
+    padding-left: 10px;
+}
+
+.text-md-two {
+    font-size: 19px;
+    padding-left: 10px;
 }
   
 .box{
@@ -235,6 +252,11 @@ section a {
   color: #ffffff;
   border-radius: 50px;
   font-weight : bold;
+  cursor: pointer;
+}
+
+.btn-three:hover{
+   background-color: rgba(0, 0, 0, 0.10);
 }
 
 .bottom-text{
@@ -249,20 +271,16 @@ section a {
 }
 
 .text-xl-boxtwo{
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 600;
     margin-bottom: 20px;
-    text-align: center;
+    padding-left:10px;
 }
-
-.listinternal li::marker {
-    color: black;
-    font-weight: bold;
-  }
   
 
 .listinternal{
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-left: 50px;
 }
 
 .footer-container {
