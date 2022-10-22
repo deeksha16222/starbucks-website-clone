@@ -79,7 +79,7 @@ export default function HomePage(){
     <div className='box'>
     <div className='box-internal-two'>
     <div className="box-text-two">
-            <h2 className="text-xl"> A new way to earn sips and trips </h2>
+            <h2 className="text-xl-two"> A new way to earn sips and trips </h2>
             <p className="text-md-two">
             Now you can link your Starbucks Rewards® + Delta SkyMiles account to get:
             </p>
