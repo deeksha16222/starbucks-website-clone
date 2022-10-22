@@ -83,7 +83,7 @@ export default function HomePage(){
             <p className="text-md">
             Now you can link your Starbucks Rewards® + Delta SkyMiles account to get:
             </p>
-            <ul className="listinternal"style={{listStyleType:'circle'}}>
+            <ul className="listinternal">
             <li>
                 150 Stars+500 miles when you link before 12/31
             </li> <br/>
@@ -206,7 +206,7 @@ export default function HomePage(){
                         <li><a href="#" class="footer__link">Explore and Find Coffee for Home</a></li>
                     </ul>
                 </div>
-
+            </div>
                 
                 
         <div className="footer-container">
@@ -232,8 +232,7 @@ export default function HomePage(){
             </div>
 
             <p>© 2021 Starbucks Coffee Company. All rights reserved.</p>
-        </div>
-        </div>
+       </div>
       </footer>
 
     </div>
