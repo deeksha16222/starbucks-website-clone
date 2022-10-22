@@ -133,6 +133,7 @@ section a {
 .btn-light-outline {
   border-color: black;
   color: black;
+  font-weight: bold;
 }
 
 .btn-dark {
@@ -148,6 +149,7 @@ section a {
     text-align: center;
     justify-content: center;
     background-color: #d4e9e2;
+    padding: 40px 40px 40px 40px;
 }
 
 .text-xl {
@@ -161,6 +163,8 @@ section a {
 .text-md {
     font-size: 19px;
     text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
   
 .box{
@@ -186,6 +190,7 @@ section a {
     text-align: center;
     justify-content: center;
     background-color: #006241; 
+    padding: 20px 20px 20px 20px;
 }
 .box-image > img{
     height: 100%
@@ -193,7 +198,10 @@ section a {
 
 .text-xl-three {
     font-size: 50px;
-    letter-spacing: 6px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    letter-spacing: 4px;
     font-weight: 600;
     margin-bottom: 20px;
     text-align: center;
@@ -202,16 +210,51 @@ section a {
 
 .text-md-three{
     color: #ffffff;
+        font-size: 20px;
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+
 }
+
+
+    .p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    
+
 
 .btn-three{
    border-color: #ffffff;
   color: #ffffff;
   border-radius: 50px;
+  font-weight : bold;
 }
 
 .bottom-text{
-    padding : 30px;
+    padding-top : 30px;
+    text-align: center;
+}
+
+.text-condition{
+    padding-top : 60px;
+    padding-left : 260px;
+    padding-right: 260px;
+}
+
+.text-xl-boxtwo{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.listinternal{
+    padding-top: 10px;
 }
 
 .footer-container {
@@ -249,12 +292,6 @@ section a {
     height: 100%
 }
 
-.bd-container{
-    max-width: 960px;
-    width: calc(100% - 2rem);
-    margin-left: var(--mb-2);
-    margin-right: var(--mb-2);
-  }
 
   .bd-grid{
     display: grid;
@@ -278,8 +315,129 @@ section a {
     margin-bottom: var(--mb-1);
   }
   
+
   .footer__link:hover{
     color: black;
   }
 
-  
+  .bd-container{
+        max-width: 100%;
+         margin: 0 auto;
+         display: flex;
+         padding-top: 30px;
+  }
+       .bd-grid {
+         flex-grow: 1;
+         flex-shrink: 1;
+         flex-basis: 0;
+         cursor: pointer;
+         cursor: hand;
+         display: block;
+       }
+/* Mobile Menu */
+.mobile-menu {
+    position: fixed;
+    top: 75px;
+    right: 0;
+    width: 90%;
+    background-color: #fff;
+    color: #000;
+    height: 100%;
+    padding: 30px;
+    box-shadow: inset 0 4px 3px -3px rgb(0 0 0 / 10%),
+    inset 0 4px 2px -2px rgb(0 0 0 / 7%);
+    transition: all 0.3s;
+}
+
+.mobile-menu img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.mobile-menu ul {
+    line-height: 3;
+    border-bottom: #777 solid 1px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.mobile-menu a:hover {
+    color: var(--color-primary);
+}
+
+.mobile-menu div {
+    margin-top: 20px; 
+}
+
+.mobile-menu div a {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+}
+
+.hidden {
+    transform: translateX(100%);
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    
+    .hamburger {
+        display: block;
+    }
+
+    .box-internal {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar-brand img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .navbar .navbar-nav-left,
+    .navbar .navbar-nav-right {
+        display: none;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+
+}
+
+@media(max-width: 960px) {
+    .text-xl {
+        font-size: 30px;
+    }
+
+    .text-lg {
+        font-size: 25px;
+    }
+
+    .text-md {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .box {
+        max-width: 1440px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .divider {
+        max-width: 90%;
+    }
+}

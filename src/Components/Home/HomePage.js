@@ -79,22 +79,22 @@ export default function HomePage(){
     <div className='box'>
     <div className='box-internal'>
     <div className="box-text">
-            <h2 className="text-xl"> A new way to earn sips and trips </h2>
+            <h2 className="text-xl-boxtwo"> A new way to earn sips and trips </h2>
             <p className="text-md">
             Now you can link your Starbucks Rewards® + Delta SkyMiles account to get:
             </p>
-            <ul style={{listStyleType:'circle'}}>
+            <ul className="listinternal"style={{listStyleType:'circle'}}>
             <li>
                 150 Stars+500 miles when you link before 12/31
-            </li>
+            </li> <br/>
             <li>
                 Double Stars on Delta travel days
-            </li>
+            </li> <br/>
             <li>
             1 mile per $1 spent at Starbucks(excludes tax and gratuities)**
-            </li>
+            </li> <br/>
             </ul>
-          <a href="#" className="btn btn-light-outline">Link Account</a>
+          <a href="#" className="btn btn-light-outline">Link Accounts</a>
     </div>
     </div>
     <div className="box-image">
@@ -127,7 +127,7 @@ export default function HomePage(){
             <p className="text-md-three">
             Try the Apple Crisp Oatmilk Macchiato, now nondairy and with Starbucks® Blonde Espresso.
             </p>
-            <a href="#" className="btn btn-three">Order now</a>
+            <a href="#" className="btn btn-three">Learn More</a>
     </div>
     </div>
     <div className="box-image-three">
@@ -137,11 +137,11 @@ export default function HomePage(){
 
     <div className='bottom-text'>
     <div>
-    <p>*NO PURCHASE NECESSARY. Participating stores only. Ends 10/23/22. To enter and for Official Rules, visit </p>
+    <p>*NO PURCHASE NECESSARY. Participating stores only. Ends 10/23/22. To enter and for Official Rules, visit </p> <br/>
     <p>Entrants can receive a maximum of 2 entries per day.</p>
     </div> 
-    <div>
-    <p>**Excludes taxes and gratuities. 
+    <div className='text-condition'>
+    <p className='inner-text-condition'>**Excludes taxes and gratuities. 
     At participating stores. Some restrictions apply. 150 Stars deposited after first qualifying Starbucks purchase. Flights purchased close to departure may not earn double Stars. Stars may not be earned on purchases of alcohol, Starbucks Cards and Starbucks Card reloads. For details, visit </p>
     <a href="http://deltastarbucks.com/terms">deltastarbucks.com/terms</a>
     </div>
